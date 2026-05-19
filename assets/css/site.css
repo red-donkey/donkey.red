@@ -63,6 +63,7 @@ body::before {
   width: 2.25rem;
   height: 2.25rem;
   object-fit: contain;
+  filter: invert(1);
 }
 
 .nav-link { opacity: .82; }
