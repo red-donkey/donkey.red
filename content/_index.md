@@ -6,13 +6,19 @@ intro: "Red Donkey Technology Corp is a boutique software consultancy based in N
 
 ## What we do
 
-We work with teams who need calm, experienced technical leadership: understanding the problem, finding the simplest coherent path through it, and shipping software that feels good to use.
+Bring us your weird, hard, messy operational problems.
 
-- Modern software development and architecture
+We help Nelson businesses, non-profits, and community-minded organizations find the places where software can make a real difference: awkward legacy systems, data tangles, manual admin, brittle spreadsheets, and workflows held together by heroic people doing too much.
+
+We start by understanding how the work actually happens. Sometimes that means a short software opportunity audit. Sometimes it means rescuing or replacing part of an old system. Sometimes it means building a small custom tool, dashboard, automation, or AI-assisted workflow.
+
+We work iteratively, starting small and building only what earns its keep.
+
+- Software opportunity audits
+- Small custom tools and internal apps
 - Legacy system rescue and modernization
-- AI-assisted engineering workflows
-- Behaviour-Driven Development, testing, and delivery coaching
-- Fractional principal engineer / CTO support
+- AI-assisted workflows for data-heavy work
+- Pragmatic technology leadership and advice
 
 ## About Matt Wynne
 
