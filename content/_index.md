@@ -28,4 +28,4 @@ Originally from northwest England, Matt now lives in the mountain town of Nelson
 
 ## Let's talk
 
-If you have a gnarly technical problem, an old system that needs a future, or an ambitious idea that needs turning into software, we'd love to hear from you.
+If you have a gnarly technical problem, an old system that needs a future, or an ambitious idea that needs turning into software, [we'd love to hear from you](mailto:hi@donkey.red).
