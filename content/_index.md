@@ -1,12 +1,12 @@
 ---
 title: "Red Donkey Technology Corp"
 tagline: "We can make computers do anything."
-intro: "Red Donkey Technology Corp is a boutique software consultancy based in Nelson, BC, founded by Matt Wynne. We help teams turn messy problems into clear, working software."
+intro: "Red Donkey Technology Corp is a boutique software consultancy based in Nelson, BC, founded by Matt Wynne. We help you find simplicity, coherence and delight in your digital solutions."
 ---
 
 ## What we do
 
-We work with teams who need calm, experienced technical leadership: understanding the problem, shaping a plan, and shipping software that lasts.
+We work with teams who need calm, experienced technical leadership: understanding the problem, finding the simplest coherent path through it, and shipping software that feels good to use.
 
 - Modern software development and architecture
 - Legacy system rescue and modernization
