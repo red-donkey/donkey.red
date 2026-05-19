@@ -10,11 +10,11 @@ Bring us your weird, hard, messy operational problems.
 
 We help Nelson businesses, non-profits, and community-minded organizations find the places where software can make a real difference: awkward legacy systems, data tangles, manual admin, brittle spreadsheets, and workflows held together by heroic people doing too much.
 
-We start with systems thinking: understanding how the work actually happens, where information flows, where it gets stuck, and what people are really trying to achieve. Sometimes the best software is no software at all — a clearer process, a better handoff, or the right off-the-shelf tool.
+Our work is grounded in systems thinking: how the work actually happens, where information flows, where it gets stuck, and what people are really trying to achieve. The best software may be no software at all — just a clearer process, a better handoff, or the right off-the-shelf tool.
 
-When custom software is the right answer, we work iteratively. Sometimes that starts with a short software opportunity audit. Sometimes it means rescuing or replacing part of an old system. Sometimes it means building a small custom tool, database system, mobile app, dashboard, automation, or AI-assisted workflow. We especially love integrating systems together so information can move cleanly through your organization.
+When custom software is the right answer, we build iteratively: a short software opportunity audit, a focused rescue of part of an old system, or a small custom tool, database system, mobile app, dashboard, automation, or AI-assisted workflow. We especially love integrating systems together so information can move cleanly through your organization.
 
-We start small and build only what earns its keep.
+Small steps. Useful results. Software that earns its keep.
 
 - Systems thinking and software opportunity audits
 - Small custom tools, database systems, and mobile apps
