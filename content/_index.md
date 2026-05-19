@@ -12,14 +12,15 @@ We help Nelson businesses, non-profits, and community-minded organizations find 
 
 We start with systems thinking: understanding how the work actually happens, where information flows, where it gets stuck, and what people are really trying to achieve. Sometimes the best software is no software at all — a clearer process, a better handoff, or the right off-the-shelf tool.
 
-When custom software is the right answer, we work iteratively. Sometimes that starts with a short software opportunity audit. Sometimes it means rescuing or replacing part of an old system. Sometimes it means building a small custom tool, dashboard, automation, or AI-assisted workflow.
+When custom software is the right answer, we work iteratively. Sometimes that starts with a short software opportunity audit. Sometimes it means rescuing or replacing part of an old system. Sometimes it means building a small custom tool, database system, mobile app, dashboard, automation, or AI-assisted workflow. We especially love integrating systems together so information can move cleanly through your organization.
 
 We start small and build only what earns its keep.
 
 - Systems thinking and software opportunity audits
-- Small custom tools and internal apps
+- Small custom tools, database systems, and mobile apps
 - Legacy system rescue and modernization
 - AI-assisted workflows for data-heavy work
+- System integration and workflow automation
 - Pragmatic technology leadership and advice
 
 ## About Matt Wynne
