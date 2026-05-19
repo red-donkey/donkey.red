@@ -1,0 +1,30 @@
+{{ define "main" }}
+<header class="site-header" aria-label="Site header">
+  <a class="brand" href="{{ site.Home.RelPermalink }}">
+    <img src="{{ "logo.png" | relURL }}" alt="" aria-hidden="true">
+    <span>{{ site.Title }}</span>
+  </a>
+  <a class="nav-link" href="mailto:{{ site.Params.contactEmail }}">Contact</a>
+</header>
+
+<main>
+  <section class="hero" aria-labelledby="site-title">
+    <div class="hero-copy">
+      <p class="eyebrow">Boutique software consultancy · Nelson, BC</p>
+      <h1 id="site-title">{{ .Params.tagline }}</h1>
+      <p class="lede">{{ .Params.intro }}</p>
+      <div class="actions">
+        <a class="button" href="mailto:{{ site.Params.contactEmail }}">Start a conversation</a>
+        <a class="button secondary" href="#what-we-do">What we do</a>
+      </div>
+    </div>
+    <div class="hero-mark" aria-hidden="true">
+      <img class="logo" src="{{ "logo.png" | relURL }}" alt="">
+    </div>
+  </section>
+
+  <section class="content-card prose">
+    {{ .Content }}
+  </section>
+</main>
+{{ end }}
