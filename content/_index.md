@@ -10,11 +10,13 @@ Bring us your weird, hard, messy operational problems.
 
 We help Nelson businesses, non-profits, and community-minded organizations find the places where software can make a real difference: awkward legacy systems, data tangles, manual admin, brittle spreadsheets, and workflows held together by heroic people doing too much.
 
-We start by understanding how the work actually happens. Sometimes that means a short software opportunity audit. Sometimes it means rescuing or replacing part of an old system. Sometimes it means building a small custom tool, dashboard, automation, or AI-assisted workflow.
+We start with systems thinking: understanding how the work actually happens, where information flows, where it gets stuck, and what people are really trying to achieve. Sometimes the best software is no software at all — a clearer process, a better handoff, or the right off-the-shelf tool.
 
-We work iteratively, starting small and building only what earns its keep.
+When custom software is the right answer, we work iteratively. Sometimes that starts with a short software opportunity audit. Sometimes it means rescuing or replacing part of an old system. Sometimes it means building a small custom tool, dashboard, automation, or AI-assisted workflow.
 
-- Software opportunity audits
+We start small and build only what earns its keep.
+
+- Systems thinking and software opportunity audits
 - Small custom tools and internal apps
 - Legacy system rescue and modernization
 - AI-assisted workflows for data-heavy work
