@@ -1,7 +1,7 @@
 ---
-title: "Donkey Red"
+title: "Red Donkey Technology Corp"
 tagline: "We can make computers do anything."
-intro: "Donkey Red is a boutique software consultancy based in Nelson, BC, founded by Matt Wynne. We help teams turn messy problems into clear, working software."
+intro: "Red Donkey Technology Corp is a boutique software consultancy based in Nelson, BC, founded by Matt Wynne. We help teams turn messy problems into clear, working software."
 ---
 
 ## What we do
@@ -16,7 +16,7 @@ We work with teams who need calm, experienced technical leadership: understandin
 
 ## About Matt Wynne
 
-Matt Wynne is the founder and principal of Donkey Red.
+Matt Wynne is the founder and principal of Red Donkey Technology Corp.
 
 Matt has consulted all over the world for organizations from the BBC to Vanguard and Deutsche Bank. He recently finished a two-year engagement with a Silicon Valley startup using AI to modernize legacy mainframe COBOL systems.
 

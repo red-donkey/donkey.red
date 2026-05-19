@@ -1,8 +1,8 @@
 baseURL = 'https://donkey.red/'
 languageCode = 'en-us'
-title = 'Donkey Red'
+title = 'Red Donkey Technology Corp'
 disableKinds = ['taxonomy', 'term', 'RSS', 'sitemap']
 
 [params]
-  description = 'Donkey Red homepage'
+  description = 'Red Donkey Technology Corp homepage'
   contactEmail = 'hi@donkey.red'
