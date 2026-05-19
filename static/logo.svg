@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Red Donkey Technology Corp</title>
+  <desc id="desc">A geometric RD monogram.</desc>
+  <rect width="512" height="512" rx="88" fill="#fff8ed"/>
+  <rect x="28" y="28" width="456" height="456" rx="68" fill="none" stroke="#801414" stroke-width="18"/>
+
+  <!-- R -->
+  <path fill="#211714" d="M88 132h132c42 0 72 30 72 72v22c0 34-20 60-50 69l62 85h-62l-58-80h-42v80H88V132Zm54 50v70h72c14 0 24-10 24-24v-22c0-14-10-24-24-24h-72Z"/>
+
+  <!-- D -->
+  <path fill="#c42424" d="M302 132h94c54 0 88 34 88 88v72c0 54-34 88-88 88h-94V132Zm54 50v148h38c22 0 36-14 36-36v-76c0-22-14-36-36-36h-38Z"/>
+
+  <path fill="#801414" d="M88 414h336v28H88z"/>
+</svg>
