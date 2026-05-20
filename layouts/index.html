@@ -4,7 +4,6 @@
 <main>
   <section class="hero" aria-labelledby="site-title">
     <div class="hero-copy">
-      <p class="eyebrow">Boutique software consultancy · Nelson, BC</p>
       <h1 id="site-title">{{ range $index, $line := split .Params.tagline "\n" }}{{ if $index }}<br>{{ end }}{{ $line }}{{ end }}</h1>
       <p class="lede">{{ .Params.intro }}</p>
       <div class="actions">
