@@ -1,17 +1,11 @@
 {{ define "main" }}
-<header class="site-header" aria-label="Site header">
-  <a class="brand" href="{{ site.Home.RelPermalink }}">
-    <img src="{{ "logo.svg" | relURL }}" alt="" aria-hidden="true">
-    <span>{{ site.Title }}</span>
-  </a>
-  <a class="nav-link" href="mailto:{{ site.Params.contactEmail }}">Contact</a>
-</header>
+{{ partial "site-header.html" . }}
 
 <main>
   <section class="hero" aria-labelledby="site-title">
     <div class="hero-copy">
       <p class="eyebrow">Boutique software consultancy · Nelson, BC</p>
-      <h1 id="site-title">{{ .Params.tagline }}</h1>
+      <h1 id="site-title">{{ range $index, $line := split .Params.tagline "\n" }}{{ if $index }}<br>{{ end }}{{ $line }}{{ end }}</h1>
       <p class="lede">{{ .Params.intro }}</p>
       <div class="actions">
         <a class="button" href="mailto:{{ site.Params.contactEmail }}">Start a conversation</a>

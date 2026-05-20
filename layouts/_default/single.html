@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ partial "site-header.html" . }}
+
+<main>
+  <section class="page-hero" aria-labelledby="page-title">
+    <p class="eyebrow">{{ .Params.eyebrow }}</p>
+    <h1 id="page-title" class="page-title">{{ .Title }}</h1>
+  </section>
+
+  <section class="content-card about-card">
+    {{ with .Params.photo }}
+      <img class="about-photo" src="{{ . }}" alt="Matt Wynne">
+    {{ end }}
+    <div class="prose">
+      {{ .Content }}
+    </div>
+  </section>
+</main>
+{{ end }}

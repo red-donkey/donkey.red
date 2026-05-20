@@ -1,40 +1,30 @@
 ---
 title: "Red Donkey Technology Corp"
-tagline: "We can make computers do anything."
-intro: "Red Donkey Technology Corp is a boutique software consultancy based in Nelson, BC, founded by Matt Wynne. You use software every day. Why not make it delightful?"
+tagline: |-
+  We can make computers do anything.
+intro: "Red Donkey Technology Corp is a boutique software consultancy based in Nelson, BC. We're software experts who want to use our powers for good."
 ---
 
 ## What we do
 
-Bring us your weird, hard, messy operational problems.
+We build you bespoke digital tools that take your toil away, so you can focus doing your best work.
 
-We help Nelson businesses, non-profits, and community-minded organizations find the places where software can make a real difference: awkward legacy systems, data tangles, manual admin, brittle spreadsheets, and workflows held together by heroic people doing too much.
+For years, custom software has been an expensive luxury that only wealthy corporations or VC-funded startups could afford.
+
+AI has changed the game.
+
+Something that might have taken several months, we can now build in a few days. Not vibe-coded slop, but well-engineered production-grade systems. These things are now affordable to people who couldn't have afforded them before.
+
+*What could we do with that abundance?*
+
+In general, our world is moving towards more inequality, more injustice. We want to do our little bit to redress that balance by focussing our skills and experience where we can have a positive social impact.
+
+## How we do it
 
 Our work is grounded in systems thinking: how the work actually happens, where information flows, where it gets stuck, and what people are really trying to achieve. The best software may be no software at all — just a clearer process, a better handoff, or the right off-the-shelf tool.
 
-When custom software is the right answer, we build iteratively: a short software opportunity audit, a focused rescue of part of an old system, or a small custom tool, database system, mobile app, dashboard, automation, or AI-assisted workflow. We especially love integrating systems together so information can move cleanly through your organization.
-
-Small steps. Useful results. Software that earns its keep.
-
-- Systems thinking and software opportunity audits
-- Small custom tools, database systems, and mobile apps
-- Legacy system rescue and modernization
-- AI-assisted workflows for data-heavy work
-- System integration and workflow automation
-- Pragmatic technology leadership and advice
-
-## About Matt Wynne
-
-Matt Wynne is the founder and principal of Red Donkey Technology Corp.
-
-Matt has consulted all over the world for organizations from the BBC to Vanguard and Deutsche Bank. He recently finished a two-year engagement with a Silicon Valley startup using AI to modernize legacy mainframe COBOL systems.
-
-He has been making a living as a programmer since the late 1990s. In 2008 he joined the fledgling Cucumber open source project, later co-authoring *The Cucumber Book* with Cucumber's creator, Aslak Hellesøy. In 2013 Matt co-founded Cucumber Limited, a consulting and training business that taught thousands of people around the world about Cucumber and Behaviour-Driven Development. Cucumber was acquired by SmartBear in 2019.
-
-Matt developed the practice of Example Mapping, and has spent much of his career helping teams communicate better so they can build better software.
-
-Originally from northwest England, Matt now lives in the mountain town of Nelson, British Columbia.
+When custom software is the right answer, we build iteratively: working with you to co-create something that will eliminate tedious, error-prone or mundane work: a small custom tool, database system, mobile app, dashboard, automation, or AI-assisted workflow. We especially love integrating systems together so information can move cleanly through your organization.
 
 ## Let's talk
 
-If you have a gnarly technical problem, an old system that needs a future, or an ambitious idea that needs turning into software, [we'd love to hear from you](mailto:hi@donkey.red).
+If you have a gnarly technical problem, an old system that needs a future, or an vague ambitious idea that needs turning into software, [we'd love to hear from you](mailto:hi@donkey.red).
