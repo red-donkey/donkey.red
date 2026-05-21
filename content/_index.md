@@ -1,23 +1,22 @@
 ---
 title: "Red Donkey Technology Corp"
 tagline: |-
-  We can make computers do anything.
-intro: "Red Donkey Technology Corp is a boutique software consultancy based in Nelson, BC. We're software experts who want to use our powers for good."
+  We make computers
+  do good.
+intro: "Practical software for people and organizations doing work that matters. A small studio in Nelson, BC."
 ---
 
 ## What we do
 
-We build you bespoke digital tools that take your toil away, so you can focus doing your best work.
+We build bespoke digital tools that take your toil away, so you can focus on doing your best work.
 
 For years, custom software has been an expensive luxury that only wealthy corporations or VC-funded startups could afford.
 
 AI has changed the game.
 
-Something that might have taken several months, we can now build in a few days. Not vibe-coded slop, but well-engineered production-grade systems. These things are now affordable to people who couldn't have afforded them before.
+Something that might once have taken several months can now often be built in a few days. Not throwaway prototypes, but well-engineered production-grade systems. These things are now affordable to people who couldn't have afforded them before.
 
-*What could we do with that abundance?*
-
-In general, our world is moving towards more inequality, more injustice. We want to do our little bit to redress that balance by focussing our skills and experience where we can have a positive social impact.
+We want to point that new abundance somewhere useful: towards people and organizations doing work that strengthens communities, reduces inequality, protects the natural world, or makes daily work more humane. [Read more about our mission](/about/#mission).
 
 ## How we do it
 
@@ -27,4 +26,4 @@ When custom software is the right answer, we build iteratively: working with you
 
 ## Let's talk
 
-If you have a gnarly technical problem, an old system that needs a future, or an vague ambitious idea that needs turning into software, [we'd love to hear from you](mailto:hi@donkey.red).
+If you have a gnarly technical problem, an old system that needs a future, or a vague, ambitious idea that needs turning into software, [we'd love to hear from you](mailto:hi@donkey.red).
