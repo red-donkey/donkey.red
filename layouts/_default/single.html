@@ -7,13 +7,15 @@
     <h1 id="page-title" class="page-title">{{ .Title }}</h1>
   </section>
 
-  <section class="content-card about-card">
+  <section class="content-card{{ if .Params.photo }} about-card{{ else }} prose{{ end }}">
     {{ with .Params.photo }}
       <img class="about-photo" src="{{ . }}" alt="Matt Wynne">
-    {{ end }}
-    <div class="prose">
+      <div class="prose">
+        {{ $.Content }}
+      </div>
+    {{ else }}
       {{ .Content }}
-    </div>
+    {{ end }}
   </section>
 </main>
 {{ end }}

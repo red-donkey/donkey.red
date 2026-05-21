@@ -5,26 +5,24 @@
 - [x] Rewrite the hero so it names the audience and outcome, not just Red Donkey's capability.
   - Was: “We can make computers do anything.”
   - Now: tagline “We make computers do good.”, lede “Practical software for people and organizations doing work that matters. A small studio in Nelson, BC.”
-- [ ] Decide and name the ideal client clearly.
-  - Examples: nonprofits, co-ops, mission-driven small businesses, local organizations, public-good teams.
+- [x] Decide and name the ideal client clearly.
+  - Named in hero/homepage: nonprofits, co-ops, community groups/organizations, public-good teams, and mission-driven small businesses.
 - [x] Promote the “use our powers for good” idea earlier; it is one of the page’s most distinctive lines. (Now the tagline: “We make computers do good.”)
-- [ ] Make the opening more client-centered: lead with the problems Red Donkey solves before explaining the AI-enabled opportunity.
+- [x] Make the opening more client-centered: lead with the problems Red Donkey solves before explaining the AI-enabled opportunity.
 
 ## Priority 2 — Add trust and proof
 
-- [ ] Add one concrete example of the kind of work Red Donkey does.
-  - Example formats:
-    - “We help teams replace spreadsheet chaos with simple internal tools.”
-    - “We connect donation, CRM, finance, and reporting systems so staff stop copying data by hand.”
-    - “We modernize old systems without disrupting the people who rely on them.”
-- [ ] Add at least one credibility signal.
-  - Options: founder/team bio, relevant experience, client/project example, testimonial, local Nelson connection.
-- [ ] Consider adding a short “Who we work with” or “Good fit” section.
+- [x] Add one concrete example of the kind of work Red Donkey does.
+  - Added “How we help” examples for spreadsheets, system integration, legacy modernization, dashboards, automations, mobile apps, and AI-assisted workflows.
+- [x] Add at least one credibility signal.
+  - Founder quote and About link added on homepage; About page includes relevant experience and local/community work.
+- [x] Consider adding a short “Who we work with” or “Good fit” section.
 - [ ] If possible, add engagement signals: typical project size, project length, first-step process, or budget expectations.
 
 ## Priority 3 — Tune the tone
 
-- [ ] Decide whether the voice should be more snarky/insider or more broadly accessible.
+- [x] Decide whether the voice should be more snarky/insider or more broadly accessible.
+  - Chosen direction: broadly accessible for non-technical mission-driven leaders.
 - [x] Reconsider “vibe-coded slop.”
   - Keep it if deliberately targeting technical/friendly readers.
   - Replace it if targeting non-technical mission-driven leaders.
@@ -35,19 +33,19 @@
 
 ## Priority 4 — Improve conversion
 
-- [ ] Make the primary CTA more specific than “Start a conversation.”
-  - Possible CTA: “Tell us what’s stuck.”
+- [x] Make the primary CTA more specific than “Start a conversation.”
+  - Changed to “Tell us what's stuck.”
 - [ ] Consider replacing or supplementing `mailto:` with a low-friction contact form or booking link.
-- [ ] Strengthen the closing section with a clearer invitation.
-  - Example: “Tell us what’s broken, what’s stuck, or what you wish existed.”
-- [ ] Ensure the primary CTA is visually dominant and the secondary CTA is clearly secondary.
+- [x] Strengthen the closing section with a clearer invitation.
+  - Added: “Tell us what's broken, what's stuck, or what you wish existed.”
+- [x] Ensure the primary CTA is visually dominant and the secondary CTA is clearly secondary.
 
 ## Priority 5 — Improve structure and scannability
 
-- [ ] Break up the dense “How we do it” paragraph.
-- [ ] Convert the long list of possible tools into a short bulleted list or 3 stronger examples.
-- [ ] Keep “The best software may be no software at all” prominent; it is a strong trust-builder.
-- [ ] Make the “AI has changed the game” point support the service promise rather than dominate the section.
+- [x] Break up the dense “How we do it” paragraph.
+- [x] Convert the long list of possible tools into a short bulleted list or 3 stronger examples.
+- [x] Keep “The best software may be no software at all” prominent; it is a strong trust-builder.
+- [x] Make the “AI has changed the game” point support the service promise rather than dominate the section.
 
 ## Priority 6 — Fix copy issues
 

@@ -1,0 +1,29 @@
+{{ define "main" }}
+{{ partial "site-header.html" . }}
+
+{{ $aboutHeading := "<h2 id=\"about-matt-wynne\">About Matt Wynne</h2>" }}
+{{ $sections := split .Content $aboutHeading }}
+{{ $mission := index $sections 0 }}
+{{ $about := cond (gt (len $sections) 1) (index $sections 1) "" }}
+
+<main>
+  <section class="page-hero" aria-labelledby="page-title">
+    <p class="eyebrow">{{ .Params.eyebrow }}</p>
+    <h1 id="page-title" class="page-title">{{ .Title }}</h1>
+  </section>
+
+  <section class="content-card prose page-section">
+    {{ $mission | safeHTML }}
+  </section>
+
+  <section class="content-card about-card page-section" aria-labelledby="about-matt-wynne">
+    {{ with .Params.photo }}
+      <img class="about-photo" src="{{ . }}" alt="Matt Wynne">
+    {{ end }}
+    <div class="prose">
+      {{ $aboutHeading | safeHTML }}
+      {{ $about | safeHTML }}
+    </div>
+  </section>
+</main>
+{{ end }}

@@ -1,7 +1,7 @@
 <header class="site-header" aria-label="Site header">
   <a class="brand" href="{{ site.Home.RelPermalink }}">
     <img src="{{ "logo.svg" | relURL }}" alt="" aria-hidden="true">
-    <span>{{ site.Title }}</span>
+    <span>{{ site.Params.brandName | default site.Title }}</span>
   </a>
   <nav class="site-nav" aria-label="Main navigation">
     <a class="nav-link" href="{{ "about/" | relURL }}">About</a>

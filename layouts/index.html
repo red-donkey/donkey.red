@@ -7,11 +7,19 @@
       <h1 id="site-title">{{ range $index, $line := split .Params.tagline "\n" }}{{ if $index }}<br>{{ end }}{{ $line }}{{ end }}</h1>
       <p class="lede">{{ .Params.intro }}</p>
       <div class="actions">
-        <a class="button" href="mailto:{{ site.Params.contactEmail }}">Start a conversation</a>
+        <a class="button" href="mailto:{{ site.Params.contactEmail }}?subject=What%27s%20stuck">Tell us what's stuck</a>
         <a class="button secondary" href="#what-we-do">What we do</a>
       </div>
     </div>
   </section>
+
+  <aside class="founder-quote" aria-label="A note from the founder">
+    <img class="founder-quote-avatar" src="https://i.snap.as/I3S7kNjr.jpeg" alt="Matt Wynne">
+    <div class="founder-quote-body">
+      <blockquote>For the past few years I've been deep inside Silicon Valley AI start-ups, working on the frontier of what this technology can do. I started Red Donkey to bring what I've learned home — to people and organizations doing work that actually matters.</blockquote>
+      <p class="founder-quote-attr">— Matt Wynne · <a href="{{ "about/#about-matt-wynne" | relURL }}">Read more</a></p>
+    </div>
+  </aside>
 
   <section class="content-card prose">
     {{ .Content }}
