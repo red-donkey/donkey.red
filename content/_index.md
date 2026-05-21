@@ -2,7 +2,7 @@
 title: "Red Donkey Technology Corp"
 tagline: |-
   We make computers
-  do good.
+  do good things.
 intro: "Practical software for nonprofits, co-ops, community groups, and mission-driven small businesses. A small studio in Nelson, BC."
 ---
 

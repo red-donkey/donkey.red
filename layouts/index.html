@@ -21,8 +21,13 @@
     </div>
   </aside>
 
-  <section class="content-card prose">
-    {{ .Content }}
-  </section>
+  {{ range $section := split .RawContent "## " }}
+    {{ $section = strings.TrimSpace $section }}
+    {{ if $section }}
+      <section class="content-card prose homepage-card">
+        {{ printf "## %s" $section | markdownify }}
+      </section>
+    {{ end }}
+  {{ end }}
 </main>
 {{ end }}

@@ -12,6 +12,30 @@
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
   </head>
   <body>
+    <div class="retro-bg" aria-hidden="true">
+      <div class="retro-bg__grid"></div>
+      <div class="retro-bg__scanlines"></div>
+    </div>
     {{ block "main" . }}{{ end }}
+    <script>
+      (() => {
+        const root = document.documentElement;
+        let ticking = false;
+
+        const update = () => {
+          root.style.setProperty('--scroll-y', window.scrollY.toFixed(0));
+          ticking = false;
+        };
+
+        window.addEventListener('scroll', () => {
+          if (!ticking) {
+            window.requestAnimationFrame(update);
+            ticking = true;
+          }
+        }, { passive: true });
+
+        update();
+      })();
+    </script>
   </body>
 </html>
