@@ -1,33 +1,16 @@
 {{ define "main" }}
-{{ partial "site-header.html" . }}
+<main class="site-card" aria-labelledby="site-title">
+  <h1 id="site-title">{{ site.Title }}</h1>
 
-<main>
-  <section class="hero" aria-labelledby="site-title">
-    <div class="hero-copy">
-      <h1 id="site-title">{{ range $index, $line := split .Params.tagline "\n" }}{{ if $index }}<br>{{ end }}{{ $line }}{{ end }}</h1>
-      <p class="lede">{{ .Params.intro }}</p>
-      <div class="actions">
-        <a class="button" href="mailto:{{ site.Params.contactEmail }}?subject=What%27s%20stuck">Tell us what's stuck</a>
-        <a class="button secondary" href="#what-we-do">What we do</a>
-      </div>
+  <dl class="business-details">
+    <div>
+      <dt>Business number</dt>
+      <dd>{{ site.Params.businessNumber }}</dd>
     </div>
-  </section>
-
-  <aside class="founder-quote" aria-label="A note from the founder">
-    <img class="founder-quote-avatar" src="https://i.snap.as/I3S7kNjr.jpeg" alt="Matt Wynne">
-    <div class="founder-quote-body">
-      <blockquote>For the past few years I've been deep inside Silicon Valley AI start-ups, working on the frontier of what this technology can do. I started Red Donkey to bring what I've learned home — to people and organizations doing work that actually matters.</blockquote>
-      <p class="founder-quote-attr">— Matt Wynne · <a href="{{ "about/#about-matt-wynne" | relURL }}">Read more</a></p>
+    <div>
+      <dt>Contact</dt>
+      <dd><a href="mailto:{{ site.Params.contactEmail }}">{{ site.Params.contactEmail }}</a></dd>
     </div>
-  </aside>
-
-  {{ range $section := split .RawContent "## " }}
-    {{ $section = strings.TrimSpace $section }}
-    {{ if $section }}
-      <section class="content-card prose homepage-card">
-        {{ printf "## %s" $section | markdownify }}
-      </section>
-    {{ end }}
-  {{ end }}
+  </dl>
 </main>
 {{ end }}

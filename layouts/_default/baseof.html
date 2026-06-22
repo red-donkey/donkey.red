@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.Params.description }}">
-    <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+    <title>{{ site.Title }}</title>
     <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
     <link rel="icon" href="{{ "logo.svg" | relURL }}" type="image/svg+xml">
     <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
@@ -12,30 +12,6 @@
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
   </head>
   <body>
-    <div class="retro-bg" aria-hidden="true">
-      <div class="retro-bg__grid"></div>
-      <div class="retro-bg__scanlines"></div>
-    </div>
     {{ block "main" . }}{{ end }}
-    <script>
-      (() => {
-        const root = document.documentElement;
-        let ticking = false;
-
-        const update = () => {
-          root.style.setProperty('--scroll-y', window.scrollY.toFixed(0));
-          ticking = false;
-        };
-
-        window.addEventListener('scroll', () => {
-          if (!ticking) {
-            window.requestAnimationFrame(update);
-            ticking = true;
-          }
-        }, { passive: true });
-
-        update();
-      })();
-    </script>
   </body>
 </html>

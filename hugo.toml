@@ -4,6 +4,6 @@ title = 'Red Donkey Technology Corp'
 disableKinds = ['taxonomy', 'term', 'RSS', 'sitemap']
 
 [params]
-  brandName = 'Red Donkey'
-  description = 'Red Donkey Technology Corp homepage'
+  description = 'Red Donkey Technology Corp'
+  businessNumber = '753425818'
   contactEmail = 'hi@donkey.red'
